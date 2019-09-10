@@ -20,3 +20,22 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+  .button_container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  button {
+    margin: 0.2rem;
+    padding: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 2px solid gray;
+    border-radius: 55%;
+    transition: all 0.2s ease-in;
+  }
+  button:hover {
+    background: purple;
+    color: #fff;
+    
+  }
