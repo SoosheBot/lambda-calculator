@@ -1,10 +1,17 @@
 import React from "react";
 import "./App.css";
-import { display } from "../../../DisplayComponents/Display"
+
+//SBH -- Button Components -- //
+
+import Numbers from "./components/ButtonComponents/NumberButtons/Numbers";
+import NumberButton from "./components/ButtonComponents/NumberButtons/NumberButton";
+
 // STEP 4 - import the button and display components
 // Don't forget to import any extra css/scss files you build into the correct component
 
 // Logo has already been provided for you. Do the same for the remaining components
+//Display Components
+import Display from "./components/DisplayComponents/Display";
 import Logo from "./components/DisplayComponents/Logo";
 
 function App() {
