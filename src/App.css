@@ -5,6 +5,8 @@
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    display:flex;
+    flex-direction:column;
 }
 .display {
     margin-top: 25px;
@@ -15,27 +17,68 @@
     background-color: #322c2d;
     box-shadow: 1px 1px #322c2d;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 8%;
+    justify-content: center;
+    align-items: center;
     font-size: 5.0rem;
   }
 
   .button_container {
+    width:100%;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
   }
   button {
-    margin: 0.2rem;
-    padding: 20px;
-    font-size: 16px;
+    margin: 0.5rem;
+    padding:1rem;
+    font-size:16px;
     text-transform: uppercase;
     border: 2px solid gray;
     border-radius: 55%;
-    transition: all 0.2s ease-in;
   }
   button:hover {
     background: purple;
     color: #fff;
     
+  }
+
+  .specials_container{
+    width:45%;
+    margin-top:2px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+  }
+
+  .special_buttons{
+    background:rgb(66, 110, 172);
+    color:#fff;
+    width:3rem;
+  }
+
+  .numbers_container{
+    width:45%;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+  }
+  .number_buttons{
+    background:rgb(48, 71, 126);
+    color:#fff;
+    width:3rem;
+  }
+
+  .operators_container{
+    width:45%;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+  }
+  .operator_buttons{
+    background:teal;
+    color:#fff;
+    width:3rem;
+
   }
